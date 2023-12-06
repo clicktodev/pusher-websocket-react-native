@@ -1,5 +1,5 @@
 {
-  "name": "@hichemfantar/pusher-websocket-react-native",
+  "name": "hichemfantar-pusher-websocket-react-native",
   "version": "1.3.0",
   "description": "Pusher Channels Client for React Native",
   "main": "lib/commonjs/index",
@@ -36,7 +36,10 @@
     "ios",
     "android"
   ],
-  "repository": "https://github.com/hichemfantar/pusher-websocket-react-native",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hichemfantar/pusher-websocket-react-native.git"
+  },
   "author": "Pusher <info@pusher.com> (https://pusher.com)",
   "license": "MIT",
   "bugs": {
@@ -44,7 +47,8 @@
   },
   "homepage": "https://github.com/hichemfantar/pusher-websocket-react-native#readme",
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
   },
   "devDependencies": {
     "@commitlint/config-conventional": "^17.2.0",
