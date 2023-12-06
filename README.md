@@ -1,7 +1,7 @@
 # Pusher React Native Websocket Client
 
 [![Twitter](https://img.shields.io/badge/twitter-@Pusher-blue.svg?style=flat)](http://twitter.com/Pusher)
-[![GitHub license](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/pusher/pusher-websocket-react-native/master/LICENSE)
+[![GitHub license](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/hichemfantar/pusher-websocket-react-native/master/LICENSE)
 [![npm version](https://badge.fury.io/js/@pusher%2Fpusher-websocket-react-native.svg)](https://badge.fury.io/js/@pusher%2Fpusher-websocket-react-native)
 
 This is the [Pusher Channels](https://pusher.com/channels) React Native client.
@@ -23,7 +23,7 @@ For tutorials and more in-depth information about Pusher Channels, visit our [of
 By cloning this repository you can check the React Native example application,
 a minimal application to connect to a channel and send events.
 
-- https://github.com/pusher/pusher-websocket-react-native/tree/master/example
+- https://github.com/hichemfantar/pusher-websocket-react-native/tree/master/example
 
 ## Table of Contents
 
@@ -83,11 +83,11 @@ To integrate the plugin in your React Native App, you need
 to add the plugin to your `package.json`:
 
 ```bash
-npm install @pusher/pusher-websocket-react-native
+npm install @hichemfantar/pusher-websocket-react-native
 ```
 or
 ```bash
-yarn add @pusher/pusher-websocket-react-native
+yarn add @hichemfantar/pusher-websocket-react-native
 ```
 
 ### iOS specific installation
@@ -118,7 +118,7 @@ import {
   PusherMember,
   PusherChannel,
   PusherEvent,
-} from '@pusher/pusher-websocket-react-native';
+} from '@hichemfantar/pusher-websocket-react-native';
 
 const pusher = Pusher.getInstance();
 
@@ -568,4 +568,4 @@ Pusher is owned and maintained by [Pusher](https://pusher.com).
 
 ## License
 
-Pusher is released under the MIT license. Refer to [LICENSE](https://github.com/pusher/pusher-websocket-react-native/blob/master/LICENSE) for more details.
+Pusher is released under the MIT license. Refer to [LICENSE](https://github.com/hichemfantar/pusher-websocket-react-native/blob/master/LICENSE) for more details.
