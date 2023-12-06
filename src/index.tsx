@@ -150,6 +150,7 @@ export class Pusher {
     maxReconnectGapInSeconds?: Number;
     authorizerTimeoutInSeconds?: Number;
     proxy?: string;
+    host?: string;
     onConnectionStateChange?: (
       currentState: string,
       previousState: string
@@ -286,6 +287,7 @@ export class Pusher {
       authorizerTimeoutInSeconds: args.authorizerTimeoutInSeconds,
       authorizer: args.onAuthorizer ? true : false,
       proxy: args.proxy,
+      host: args.host,
     });
   }
 

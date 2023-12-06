@@ -53,6 +53,7 @@ class PusherWebsocketReactNativeModule(reactContext: ReactApplicationContext) :
       }
       val options = PusherOptions()
       if (arguments.hasKey("cluster")) options.setCluster(arguments.getString("cluster"))
+      if (arguments.hasKey("host")) options.setHost(arguments.getString("host"))
       if (arguments.hasKey("useTLS")) options.isUseTLS =
         arguments.getBoolean("useTLS")
       if (arguments.hasKey("activityTimeout")) options.activityTimeout =
